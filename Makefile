@@ -1,12 +1,11 @@
 BUILD_DIR=build
 BUILDTYPE?=Debug
-MAKE=ninja
 
 all: build
 
 build:
 	@mkdir -p $(BUILD_DIR)
-	cd $(BUILD_DIR); cmake ../ -DCMAKE_BUILD_TYPE=$(BUILDTYPE) -G Ninja
+	cd $(BUILD_DIR); cmake ../ -DCMAKE_BUILD_TYPE=$(BUILDTYPE)
 	$(MAKE) -C $(BUILD_DIR) -j4
 
 install:
