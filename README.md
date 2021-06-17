@@ -1,4 +1,4 @@
-## Quick-Preact
+## Quick-Preact-SSR
 Inspired By https://github.com/saghul/njk. Fast Preact SSR.
 
 ### Features
