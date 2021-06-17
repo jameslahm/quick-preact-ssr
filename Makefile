@@ -1,5 +1,5 @@
 BUILD_DIR=build
-BUILDTYPE?=Debug
+BUILDTYPE?=MinSizeRel
 
 all: build
 
